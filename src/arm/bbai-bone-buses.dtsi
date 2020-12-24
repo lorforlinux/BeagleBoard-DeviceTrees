@@ -615,7 +615,6 @@ bone_emmc: &mmc3 {
 		status = "disabled";
 		compatible = "qiaodian,qd43003c0-40", "panel-dpi";
 		backlight = <&bone_backlight>;
-		enable-gpios = <&gpio2 5 0>;
 		label = "lcd";
 
 		panel-info {
