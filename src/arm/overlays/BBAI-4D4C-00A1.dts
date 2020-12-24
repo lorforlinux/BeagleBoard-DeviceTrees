@@ -136,6 +136,7 @@
 
 	// Display
 	lcd0: display {
+		status = "okay";
 		compatible = "qiaodian,qd43003c0-40", "panel-dpi";
 		backlight = <&lcd_bl>;
 		enable-gpios = <&gpio2 5 0>;
